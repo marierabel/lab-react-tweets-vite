@@ -1,4 +1,4 @@
-function Message(tweet) {
+function Message({tweet}) {
     return (
     <p className="message">
         {tweet.message}
